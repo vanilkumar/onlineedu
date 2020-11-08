@@ -1,0 +1,60 @@
+.header-area{
+    margin-top:5px;
+}
+.academy-logo a img{
+    height:85px;
+    width:120px;
+}
+.navbar {
+    height:70px;
+    padding: 0px !important;
+}
+.dropdown-menu{
+    width:450px;
+}
+.calling-info {
+    position: relative;
+    padding-left: 80px;
+    overflow: hidden;
+}
+.calling-info .call-center {
+    position: relative;
+    z-index: 1;
+    background: #61ba6d;
+    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to right, #61ba6d, #83c331);
+    padding: 0 40px;
+    line-height: 70px;
+    height: 70px;
+}
+.calling-info .call-center a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+.classy-nav-container a {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    text-decoration: none;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #232323;
+    display: inline-block;
+}
+.calling-info .call-center:before {
+    position: absolute;
+    width: 50px;
+    height: 120%;
+    top: 3px;
+    left: -28px;
+    z-index: 1;
+    background-color: #61ba6d;
+    content: '';
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.txt-center{
+    text-align:center
+}
